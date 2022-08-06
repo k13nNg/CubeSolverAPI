@@ -4,8 +4,6 @@ import twophase.solver  as sv
 
 app = FastAPI()
 
-# def solver(inputStr):
-#     return sv.solve(inputStr)
 
 @app.get("/{face_string}")
 def root(face_string: str):
