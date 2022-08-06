@@ -13,9 +13,9 @@ https://cubersolverapi.herokuapp.com/UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLL
 https://cubersolverapi.herokuapp.com/DUUBULDBFRBFRRULLLBRDFFFBLURDBFDFDRFRULBLUFDURRBLBDUDL
 
 **Explanations for values:**
-*1. If a pattern is valid, the algorithm will return the solution move sequence to solve the cube, followed by the number of steps in brackets. For example: (20f) means 20 steps
+  - 1. If a pattern is valid, the algorithm will return the solution move sequence to solve the cube, followed by the number of steps in brackets. For example: (20f) means 20 steps
 
-*2. If the pattern is invalid, a 404 error would be raised and the error would be returned in the format:
+  - 2. If the pattern is invalid, a 404 error would be raised and the error would be returned in the format:
   detail: "Error: ..."
   
 **Recognition:**
